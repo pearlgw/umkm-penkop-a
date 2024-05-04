@@ -24,6 +24,9 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#teams">Our Teams</a>
+                    </li>
                 </ul>
                 <form class="d-flex ms-3" role="search">
                     <input class="form-control me-2" type="search" id="searchInput" placeholder="Search"
@@ -167,11 +170,49 @@
 
     <h1 class="text-center" id="contact" style="padding-top: 70px; color:black">Contact</h1>
     <div class="container text-center">
-        <a href="https://wa.me/6285723783739" style="font-size: 2rem; color:black;"><i
+        <a href="https://wa.me/6289693653500" style="font-size: 2rem; color:black;"><i
                 class="fab fa-whatsapp me-2"></i></a>
-        <a href="https://www.instagram.com/natagw.cpp" style="font-size: 2rem; color:black;"><i
+        <a href="https://www.instagram.com/pkop22a" style="font-size: 2rem; color:black;"><i
                 class="fab fa-instagram ms-2"></i></a>
     </div>
+
+    <h1 class="text-center" id="teams" style="padding-top: 70px; color:black">Our Teams</h1>
+    <div class="container-fluid text-center">
+        <div class="row justify-content-center">
+            <!-- Menggunakan justify-content-center untuk membuat row menjadi tengah -->
+            <div class="card" style="width: 14rem;">
+                <img src="{{ asset('image/team/alifia.jpeg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Alifia Putri Sabilla<br>7101422314</p>
+                </div>
+            </div>
+            <div class="card ms-2" style="width: 14rem;">
+                <img src="{{ asset('image/team/dinda.jpeg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Dinda Estivannya<br>7101422346</p>
+                </div>
+            </div>
+            <div class="card ms-2" style="width: 14rem;">
+                <img src="{{ asset('image/team/lafin.jpeg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Lafinati Intan Suryaneta<br>7101422050</p>
+                </div>
+            </div>
+            <div class="card ms-2" style="width: 14rem;">
+                <img src="{{ asset('image/team/nensi.jpeg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Nensiana Anggraeni<br>7101422282</p>
+                </div>
+            </div>
+            <div class="card ms-2" style="width: 14rem;">
+                <img src="{{ asset('image/team/novi.jpeg') }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">Noviana Aulia Kharisma<br>7101422181</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <footer style="padding-top: 70px;">
         <div class="text-center bg-body-secondary py-3" style="color:black">Copyright &copy; 2024 - UMKMPenKopA’22. All
@@ -223,9 +264,13 @@
                     .then(data => {
                         // Menampilkan data produk di popup
                         productName.textContent = data.nama;
-                        productPrice.textContent = new Intl.NumberFormat('id-ID', { style: 'currency', currency: 'IDR' }).format(data.harga);
+                        productPrice.textContent = new Intl.NumberFormat('id-ID', {
+                            style: 'currency',
+                            currency: 'IDR'
+                        }).format(data.harga);
                         productDescription.textContent = data.deskripsi;
-                        productImage.src = '{{ asset("storage/") }}/' + data.image; // Menampilkan gambar produk
+                        productImage.src = '{{ asset('storage/') }}/' + data
+                            .image; // Menampilkan gambar produk
 
                         // Mengatur link WhatsApp
                         const whatsappUrl = `https://wa.me/${data.no_telp}`;
