@@ -11,7 +11,7 @@ fitur yang ada:
 
 cara mengimplementasikan web ini:
 
-buka xampp, klik start pada apache dan mysql
+buka xampp, klik start pada apache dan mysql <br>
 ![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/d7264c8a-5495-47f9-ae5b-0180eb571bf6)
 
 install codingan ini
