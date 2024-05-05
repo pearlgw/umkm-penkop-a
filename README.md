@@ -1,7 +1,6 @@
 1. framework laravel(php)
 2. xampp
 3. composer
-<br>
 deskripsi dari website ini adalah belum publish dan berbentuk local membuka websitenya.
 fitur yang ada:
 1. search product
