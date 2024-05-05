@@ -1,7 +1,9 @@
+teknologi yang di gunakan:
 1. framework laravel(php)
 2. xampp
 3. composer
-   <br>deskripsi dari website ini adalah belum publish dan berbentuk local membuka websitenya. <br>
+
+<br>deskripsi dari website ini adalah belum publish dan berbentuk local membuka websitenya. <br>
 fitur yang ada:
 1. search product
 2. ada halaman admin yang berhak dan bertujuan untuk menginput data produk (jadi produknya dinamis). data produk masuk ke database
