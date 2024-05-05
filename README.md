@@ -10,6 +10,8 @@ fitur yang ada:
 2. ada halaman admin yang berhak dan bertujuan untuk menginput data produk (jadi produknya dinamis). data produk masuk ke database
 <br>
 cara mengimplementasikan web ini:
-1. buka xampp, klik start pada apache dan mysql
+1. buka xampp, klik start pada apache dan mysql <br>
 ![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/d7264c8a-5495-47f9-ae5b-0180eb571bf6)
-2. install codingan ini 
+2. install codingan ini <br>
+![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/a6ca1a30-2b6c-4a78-a195-c76d170f8061)
+
