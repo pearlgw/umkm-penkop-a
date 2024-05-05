@@ -1,4 +1,3 @@
-![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/915ea3be-d956-4a8b-9f50-82b6ee2bf786)teknologi yang di gunakan:
 1. framework laravel(php)
 2. xampp
 3. composer
