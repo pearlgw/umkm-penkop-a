@@ -30,7 +30,7 @@ langkah berikutnya:
 9. kemudian cari folder dengan cara (ctrl + p) ketikan folder "filesystem" kemudian di buka, dan cari tulisan "FILESYSTEM_DISK" di copy, lalu di paste kan di file .env yang tadi. paste di bawah sendiri kemudian di tambahkan "=public". jadinya seperti ini
 ![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/db5778fa-0a43-44b3-ac08-6a6fe717de3e)
 10. jika sudah, terakhir jalankan perintah "php artisan serve"
-<br>
+
 result halaman lokal pada halaman utama
 ![image](https://github.com/pearlgw/umkm-penkop-a/assets/145454245/99151d02-8abb-46c1-b2c0-d685e5cad5ee)
 
